@@ -3,7 +3,7 @@ import regex
 
 def ShowIPlist(subnetworks):
 	for snw, IPlist in subnetworks.items():
-		print(snw +' subnetwork:')
+		print(snw + ' subnetwork:')
 		for ip, count in IPlist.items():
 			print(ip)
 		print()
